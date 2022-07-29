@@ -1,0 +1,9 @@
+<input
+  type="text"
+  currencyFormatter
+  [(ngModel)]="inputModel"
+  (keydown)="keyWasDown($event)"
+  (blur)="blurred($event)"
+  (ngModelChange)="handleChange()"
+  (focus)="focused()"
+/>
